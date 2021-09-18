@@ -4,7 +4,11 @@
   "keywords": ["nginx-proxy"],
   "env": {
     "TARGET": {
-       "description": "Enter proxy url",
+       "description": "proxy_pass",
+       "value": ""
+    },
+    "HOST": {
+       "description": "proxy_set_header Host",
        "value": ""
     }
   },
