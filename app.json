@@ -1,0 +1,14 @@
+{
+  "name": "nginx-proxy",
+  "description": "Deploy nginx-proxy on Heroku",
+  "keywords": ["nginx-proxy"],
+  "env": {
+    "TARGET": {
+       "description": "Enter proxy url",
+       "value": ""
+    }
+  },
+  "website": "https://nginx.org/",
+  "repository": "https://nginx.org/",
+  "stack": "container"
+}
