@@ -10,6 +10,10 @@
     "HOST": {
        "description": "proxy_set_header Host",
        "value": ""
+    },
+    "REFERER": {
+       "description": "proxy_set_header Referer",
+       "value": ""
     }
   },
   "website": "https://nginx.org/",
